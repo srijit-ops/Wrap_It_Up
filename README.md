@@ -1,0 +1,1 @@
+# A responsive website where you can upload any background removed picture and can convert it to a beautiful text-portrait with the help of "Edit" button and also you can download the editted pic by the "Download" button.

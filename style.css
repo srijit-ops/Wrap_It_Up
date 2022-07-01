@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.wrapper{
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+.portrait{
+    font-size: 0.9rem;
+    color: rgba(255,255,255,.1);
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+    background-clip: text!important;
+    -webkit-background-clip: text!important;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+.beforeClick{
+    display: none;
+}
+.styling{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+.editPrev{
+    display: none;
+}
+.downImg{
+    display: none;
+}
+.downShow{
+    display: block;
+}
+@media(max-width:1200px){
+    .styling{
+        width: 80%;
+    }
+}
+@media(max-width:992px){
+    .styling{
+        width: 100%;
+    }
+}
+@media(max-width:576px){
+    .wrapper {
+        height: 75vh;
+    }
+}
